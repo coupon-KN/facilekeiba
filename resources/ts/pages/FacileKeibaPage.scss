@@ -1,0 +1,101 @@
+.facile-keiba {
+    height: 100%;
+    position: relative;
+ 
+    .race-info {
+        padding-bottom: 40px;
+    }
+
+    .tbl-race {
+        border-collapse: separate;
+        border-spacing: 0;
+        border-bottom: solid 1px gray;
+        border-left: solid 1px gray;
+        th, td {
+            border-top: solid 1px gray;
+            border-right: solid 1px gray;
+        }
+        thead {
+            background-color: #f4f2ec;
+            position: sticky;
+            top: 0;
+            height: 40px;
+            z-index: 10;
+        }
+        tbody {
+            position: sticky;
+            top: 40px;
+        }
+        tr {
+            border-top: solid 1px #aaa;
+        }
+        tr.horse-info {
+            position: sticky;
+            top: inherit;
+        }
+        tr.horse-info td:not(:first-child) {
+            background-color: white;
+        }
+        tr.horse-info.opend td {
+            border-bottom: solid 1px gray;
+        }
+        tr.horse-info.delete td:not(:first-child){
+            background-color: #d0d0d0;
+        }
+        tr.close {
+            display: none;
+        }
+        th:nth-child(1){width: 20px;}
+        th:nth-child(2){width: 20px;}
+        th:nth-child(3){width: 50px;}
+        th:nth-child(4){width: auto;}
+    }
+
+    footer {
+        width: 100%;
+        height: 40px;
+        position: fixed;
+        bottom: 0;
+        background-color: #fff5ea;
+    }
+    footer a{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    a.btn-door {
+        left: 10px;
+        width: 38px;
+        height: 30px;
+        background-image: url("/img/door.png");
+    }
+    a.btn-analysis {
+        left: 75px;
+        width: 30px;
+        height: 30px;
+        background-image: url("/img/analysis.png");
+    }
+    a.btn-comment {
+        left: 130px;
+        width: 30px;
+        height: 30px;
+        background-image: url("/img/comment-on.png");
+    }
+    .btn-course {
+        left: 190px;
+        width: 45px;
+        height: 30px;
+        background-image: url("/img/course.png");
+        background-size: contain;
+    }
+
+    .comment-comp {
+        min-height: 21px;
+        white-space: pre-wrap;
+    }
+    
+}

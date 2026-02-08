@@ -1,0 +1,11 @@
+.sel-race-sche {
+    input[type=date] {
+        width: 125px;
+        height: 36px;
+        margin-right: 5px;
+    }
+    select {
+        width: calc(100% - 130px);
+        height: 36px;
+    }
+}

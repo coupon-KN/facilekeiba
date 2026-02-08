@@ -1,0 +1,13 @@
+.page-frame {
+    header {
+        height: 80px;
+        background-image: url("/img/logo.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        border-bottom: solid 2px #ccc;
+    }
+    .page-body {
+        height: calc(100vh - 80px);
+    }
+}
+

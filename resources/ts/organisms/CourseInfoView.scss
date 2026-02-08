@@ -1,0 +1,31 @@
+.course-view {
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 100;
+    div {
+        width: calc(100% - 20px);
+        height: fit-content;
+        position: absolute;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        img {
+            width: 100%;
+            position: relative;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        div{
+            width: 100%;
+            position: relative;
+            background-color: white;
+        }
+    }
+}

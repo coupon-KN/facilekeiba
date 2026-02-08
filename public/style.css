@@ -1,0 +1,36 @@
+.waku1 {background: white; color:black;}
+.waku2 {background: #444444; color: white;}
+.waku3 {background: #e95556; color: white;}
+.waku4 {background: #416cba; color: white;}
+.waku5 {background: #e7c52c; color: white;}
+.waku6 {background: #45af4c; color: white;}
+.waku7 {background: #ee9738; color: white;}
+.waku8 {background: #ef8fa0; color: white;}
+
+.rank1 {background:#fff080}
+.rank2 {background:#ccdfff}
+.rank3 {background:#f0c8a0}
+.rank {background:#ffffff}
+
+.bg-dad {background: #ccefff;}
+.bg-mam {background: #ffdbd5;}
+
+.fs10{font-size: 10px;}
+.fs12{font-size: 12px;}
+.fs14{font-size: 14px;}
+.fs16{font-size: 16px;}
+
+.common-header {
+    background-color: #c3c3c3;
+    height: 60px;
+}
+
+.tbl-history thead {
+    background-color: #efefd9;
+}
+.tbl-history thead th {
+    font-weight: normal;
+}
+.tbl-horse-parent {
+    table-layout: fixed;
+}

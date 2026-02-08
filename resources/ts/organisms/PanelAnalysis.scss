@@ -1,0 +1,33 @@
+.analysis-panel {
+    width: calc(100% - 30px);
+    height: 100%;
+    position: fixed;
+    top: 0;
+	right: 0;
+    background-color: #fff;
+    border-left: solid 2px #a0a0a0;
+	transition: all 0.2s;
+	transform: translate(100%);
+    z-index: 100;
+
+    .parent-body {
+        overflow-y: scroll;
+        height: calc(100% - 50px);
+    }
+    thead { background-color: #f4f2ec; }
+    th, td {
+        border: solid 1px #ccc;
+        padding: 3px;
+    }
+
+    .panel-close {
+        width: 100%;
+        height: 50px;
+        position: fixed;
+        background-color: #e0e0e0;
+        border: none;
+    }
+}
+.analysis-panel.open {
+	transform: translate(0); 
+}
